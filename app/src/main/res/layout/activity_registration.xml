@@ -17,7 +17,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:layout_marginEnd="@dimen/activity_horizontal_margin"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
@@ -32,8 +31,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/activity_vertical_margin"
                     android:gravity="center"
-                    android:text="@string/registration_instructions"
-                    android:textColor="#ff0000"
+                    android:text="Register New User"
+                    android:textColor="#ff5a5a"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -45,22 +44,12 @@
                     android:background="#ffffff"
                     android:ems="10"
                     android:gravity="center"
-                    android:hint="Username"
+                    android:hint="Email"
                     android:inputType="textPersonName"
                     android:visibility="visible">
 
                     <requestFocus />
                 </EditText>
-
-                <TextView
-
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/activity_vertical_margin"
-                    android:background="#ffffff"
-                    android:text="@string/PASSWORD_VALIDATION_INSTRUCTION"
-                    android:textColor="#ff0000"
-                    android:textSize="12sp" />
 
                 <EditText
                     android:id="@+id/NewUserPasswordId"
@@ -74,13 +63,19 @@
                     android:inputType="textPassword" />
 
                 <TextView
-
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:text="@string/PASSWORD_VALIDATION_INSTRUCTION"
+                    android:textColor="#a4a4a4"
+                    android:textSize="12sp" />
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
                     android:text="Select your profession "
-                    android:textColor="#ff0000"
+                    android:textColor="#8e0101"
                     android:textSize="20sp"
                     android:textStyle="bold"
                     android:layout_gravity="center" />
@@ -93,7 +88,7 @@
                     android:layout_marginBottom="10dp"
                     android:layout_marginTop="@dimen/activity_vertical_margin"
                     android:background="#00ff00"
-                    android:text="@string/submitButton"
+                    android:text="@string/REGISTER"
                     android:textColor="#ffffff"
                     android:textSize="18sp" />
             </LinearLayout>

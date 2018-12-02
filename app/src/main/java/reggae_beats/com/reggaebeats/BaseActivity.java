@@ -1,5 +1,6 @@
 package reggae_beats.com.reggaebeats;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -10,6 +11,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.FrameLayout;
+
+import com.google.firebase.auth.FirebaseAuth;
 
 public class BaseActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -72,7 +75,6 @@ public class BaseActivity extends AppCompatActivity
 
                 break;
 
-
         }
 
         return super.onOptionsItemSelected(item);
@@ -104,7 +106,8 @@ public class BaseActivity extends AppCompatActivity
                 break;
 
             case R.id.Exit:
-
+                FirebaseAuth.getInstance().signOut();
+                startActivity(new Intent(this,  LoginActivity.class));
                 break;
 
 

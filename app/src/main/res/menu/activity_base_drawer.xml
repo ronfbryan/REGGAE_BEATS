@@ -27,10 +27,8 @@
 
         <item
             android:id="@+id/Exit"
-            android:title="Exit" />
-
+            android:title="Sign Out" />
 
     </group>
-
 
 </menu>
