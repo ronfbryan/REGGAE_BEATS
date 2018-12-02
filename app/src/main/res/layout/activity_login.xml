@@ -39,9 +39,7 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
                     android:layout_marginStart="20dp"
-                    android:background="@drawable/translation_background"
                     android:orientation="vertical">
-
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -57,11 +55,10 @@
                             android:gravity="center"
                             android:layout_marginTop="10dp"
                             android:background="@drawable/edit_text_background"
-
                             android:hint="Username"
-                            android:textColor="#ff0000"
+                            android:textColor="#ffffff"
                             android:inputType="text"
-                            android:textColorHint="#ff0000" />
+                            android:textColorHint="#ffffff" />
 
 
                         <EditText
@@ -71,20 +68,16 @@
                             android:gravity="center"
                             android:layout_marginTop="20dp"
                             android:background="@drawable/edit_text_background"
-
-
                             android:hint="Password"
-
-                            android:textColorHint="#ff0000"
+                            android:textColorHint="#ffffff"
                             android:inputType="textPassword"
-                            android:textColor="#FF0" />
+                            android:textColor="#ffffff" />
                     </LinearLayout>
 
                     <Spinner
                         android:id="@+id/login_spinner"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
-
                     </Spinner>
 
                     <Button
@@ -100,12 +93,11 @@
                     />
 
                     <TextView
-
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="16dp"
                         android:text="Or register if you are new "
-                        android:textColor="#ff0000"
+                        android:textColor="#ff6f6f"
                         android:textStyle="bold"
                         android:textSize="18sp"
                         android:gravity="center" />

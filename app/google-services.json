@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "61271255570",
-    "firebase_url": "https://reggaebeats-f8dbc.firebaseio.com",
-    "project_id": "reggaebeats-f8dbc",
-    "storage_bucket": "reggaebeats-f8dbc.appspot.com"
+    "project_number": "343937643735",
+    "firebase_url": "https://reggaebeat-40b1e.firebaseio.com",
+    "project_id": "reggaebeat-40b1e",
+    "storage_bucket": "reggaebeat-40b1e.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:61271255570:android:70b4679ebcc45d3c",
+        "mobilesdk_app_id": "1:343937643735:android:70b4679ebcc45d3c",
         "android_client_info": {
           "package_name": "reggae_beats.com.reggaebeats"
         }
       },
       "oauth_client": [
         {
-          "client_id": "61271255570-ppmdu5pp2r2de013c697fp8406kihv60.apps.googleusercontent.com",
+          "client_id": "343937643735-tv7mtui2o6rbuc0prsqjta0ehm4lp6j0.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA0L_BGl4Bj6-z3ONPzav9hmQJEfDVBKyA"
+          "current_key": "AIzaSyDWOoZ5x2dJKoVpCVp1tsQn1OcFzZmgjA0"
         }
       ],
       "services": {
